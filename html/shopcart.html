@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.11.1.js" ></script>
+		<script src="../js/shopcart.js"></script>
+		<script src="../js/iconfont.js"></script>
+		<script type="text/javascript" src="../js/iconfont1.js" ></script>
+		<script type="text/javascript" src="../js/myOrder.js" ></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../css/shopcart.css"/>
+	</head>
+	<body>
+		<div class="topNav">
+			<div class="topNavLeft">
+				<a href="logon.html">请登录<span>|</span></a>
+				<a href="register.html">注册<span>|</span></a>
+				<a href="" class="weixin">微信登录</a>
+			</div>
+			<div class="topNavRight">
+				<a href="">
+					<svg class="phone" aria-hidden="true">
+					    <use xlink:href="#icon-shouji"></use>
+					</svg>手机版<span>|</span>
+				</a>
+				<a href="about.html">关于我们<span>|</span></a>
+				<a href="connect.html">购买须知<span>|</span></a>
+				<a href="person.html">我的资料<span>|</span></a>
+				<a href="myOrder.html">我的订单<span>|</span></a>
+				<a href="" class="shopcart">购物车(0)
+					<ul class="cartlist">
+						<li>亲，您的购物车空空如也哟<div class="angle"></div></li>
+					</ul>
+				</a>
+			</div>
+		</div>
+		<header>
+			<div>
+				<span class="title">Apparels&nbsp;&&nbsp;Accessories&nbsp;<span>Design</span></span>
+				<input type="text" placeholder="请输入关键词搜索" class="search"/>
+				<span><img src="../img/AD0I4IycCBAEGAAgz-bq2gUo1rWoMDAYOBk.png" class="seven"/>7天无理由退货</span>
+				<span><img src="../img/AD0I4IycCBAEGAAg0Pbq2gUoxaqx6gUwHTgW.png" class="car"/>订单满299包邮</span>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li class="currentbg">
+					<svg class="classify" aria-hidden="true">
+						<use xlink:href="#icon-fenlei"></use>
+					</svg>商品分类
+					<ul class="pulldown">
+						<li>品牌球衣<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>背心</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>上装<span>></span>
+							<ul>
+								<li>卫衣</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>配件<span>></span>
+							<ul>
+								<li>背包</li>
+								<li>手环</li>
+								<li>袜子</li>
+								<li>挂件</li>
+							</ul>
+						</li>
+						<li>篮球<span>></span>
+							<ul>
+								<li>PU篮球</li>
+								<li>橡胶篮球</li>
+							</ul>
+						</li>
+						<li>限量商品<span>></span>
+							<ul>
+								<li>手机壳</li>
+								<li>球星卡</li>
+								<li>钥匙圈</li>
+							</ul>
+						</li>
+						<li>鞋子<span>></span>
+							<ul>
+								<li>跑步鞋</li>
+								<li>休闲鞋</li>
+								<li>篮球鞋</li>
+							</ul>
+						</li>
+						<li>女款<span>></span>
+							<ul>
+								<li>夹克</li>
+								<li>卫衣</li>
+							</ul>
+						</li>
+						<li>儿童<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>外套</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="currentcl" onclick="window.open('../index.html')">首页</li>
+				<li onclick="window.open('all.html')">所有商品</li>
+				<li>新品到站</li>
+				<li onclick="window.open('brand.html')">品牌专区</li>
+			</ul>
+		</nav>
+			
+			<!--主要内容-->
+			<main class="main">
+				<img class="shopcart-pic" src="../img/990d1b2dddc68631f7b5c49b94ff0c58_AD0I4IycCBACGAAg4Iz62gUotvO74gMwsAk4kwI.jpg" />
+				<div class="cart">
+				<div class="cart-title">我的购物车</div>
+      <table class="cart-table">
+      	<!--表头-->
+      	<thead>
+        <tr>
+          <th width="140"><span class="cart-all">全选</span><span class="cart-allno">全不选</span></th>
+          <th>商品信息</th><th width="160">单价</th><th width="140">数量</th><th width="160">金额</th><th width="120">操作</th>
+        </tr>
+       </thead>
+        <tr class="cart-ono"><td colspan="5"><span class="cart-small"></span> 亲，您的购物车空空的哟~</td></tr>
+        <!--表格内容-->
+        <tbody class="cart-item">
+        <tr >
+          <td><input class="cart-check" type="checkbox" ></td>
+          <td class="cart-txt-left"><span class="cart-name">库里球衣</span></td>
+          <td><input type="text" value="666.00" class="cart-price" readonly=""</td>
+          <td><span class="cart-reduce" >-</span><input type="text" value="1" class="cart-num"/><span class="cart-add">+</span></td>
+          <td><input type="text" value="666.00"class="cart-subtotal"readonly=""</td>
+          <td><span class="cart-del" onclick="del(this)">删除</span></td>
+         
+        </tr>
+        <tr>
+        <td><input class="cart-check" type="checkbox" ></td>
+          <td class="cart-txt-left"><span class="cart-name">库里战靴</span></td>
+          <td><input type="text" value="999.00" class="cart-price" readonly=""</td>
+          <td><span class="cart-reduce" >-</span><input type="text" value="1" class="cart-num"/><span class="cart-add">+</span></td>
+          <td><input type="text" value="999.00"class="cart-subtotal"readonly="" </td>
+          <td><span class="cart-del"onclick="del(this)">删除</span></td>
+         
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr class="cart-bottom">
+          <td colspan="6">
+            <span class="cart-bottom-span">已选择 <input class="cart-total-num" value="0" readonly=""></input> 件商品</span>
+            <span class="cart-bottom-span">合计(不含运费)：<input type="text" value="0" class="cart-total-price"readonly="" readonly=""/>元</span>
+            <span class="cart-bottom-btn">提交订单</span>
+          </td>
+        </tr>
+        </tfoot>
+      </table>
+      </div>
+      <aside class="aside-right">
+				<div class="custom"  onclick="window.open('custom.html')">
+					<svg class="icon custom-pic" aria-hidden="true">
+				    <use xlink:href="#icon-linedesign-20"></use>
+					</svg>
+					<p>客服</p>
+				</div>
+				<div class="top-page">
+					<svg class="icon custom-pic" aria-hidden="true">
+				    <use xlink:href="#icon-huidaodingbu"></use>
+					</svg>
+					<p>置顶</p>
+				</div>
+				</aside>
+			</main>
+			<!--底部-->
+			<footer>
+				<div>
+					<div class="fLeft">
+						<h2>Apparels & Accessories</h2>
+						<h1>010-00000000 000-0000000</h1>
+						<p>周一至周六9:00-18:30</p>
+						<p>中国-XX省-XX市-XX区-XX路-XX号</p>
+					</div>
+					<div class="txt4">
+						<ol>
+							<li>服务保障</li>
+							<li>支付方式</li>
+							<li>商家服务</li>
+							<li>物流配送</li>
+						</ol>
+						<ul>
+							<li>正品保证</li>
+							<li>7天无理由退换</li>
+							<li>退货返运费</li>
+							<li>7×15小时客户服务</li>
+						</ul>
+						<ul>
+							<li>公司转账</li>
+							<li>货到付款</li>
+							<li>在线支付</li>
+							<li>分期付款</li>
+						</ul>
+						<ul>
+							<li>商家咨询</li>
+							<li>培训中心</li>
+							<li>广告服务</li>
+							<li>服务市场</li>
+						</ul>
+						<ul>
+							<li>免运费</li>
+							<li>海外配送</li>
+							<li>EMS</li>
+							<li>211限时达</li>
+						</ul>
+					</div>
+				</div>
+			<hr />
+			<div class="ftxt">手机版 | 本站使用 凡科建站 搭建 | 管理登录</div>
+		</footer>
+		</div> 
+
+	</body>
+</html>

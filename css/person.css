@@ -1,0 +1,187 @@
+.currentcl a{
+	color: #FFFFFF;
+}
+.currentbg{
+	background-color: #1e50ae;
+	position: relative;
+}
+.classify{
+    width: 1.5em; height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;	
+    margin-right: 40px;
+}
+/*下拉条*//*下拉条*//*下拉条*//*下拉条*/
+
+.pulldown{
+	width: 240px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	display: none;
+	color: #18181F;
+	font-weight: normal;
+}
+.pulldown>li{
+	height: 63px;
+	line-height: 63px;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+}
+.pulldown>li>span{
+	float: right;
+	margin-right: 40px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+.pulldown>li>ul{
+	width: 200px;
+	height: 518px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	border: 1px solid #1e50ae;
+	border-left-color: transparent;
+}
+.pulldown>li>ul>li{
+	width: 200px;
+	padding: 20px 0px;
+	float: left;
+}
+/*我的资料*/
+.personSection{
+	width: 1200px;
+	height: 950px;
+	background-color: #FFFFFF;
+	margin: 10px auto;
+	font-weight: normal;
+	position: relative;
+}
+.personLeft{
+	width: 200px;
+	border: 1px solid #f1f1f1;
+	position: absolute;
+}
+.personLeft li{
+	padding-top: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.personLeft li:nth-of-type(10){
+	padding-bottom: 20px;
+}
+.personLeft li:hover{
+	color: #1e50ae;
+}
+.personRight{
+	width: 940px;
+	position: absolute;
+	right: 25px;
+	border: 1px solid #f1f1f1;
+}
+.personRight table{
+	width: 900px;
+	margin: 20px auto 40px;
+	border-collapse: collapse;
+	border: 1px solid #f1f1f1;
+}
+.personRight tr:nth-of-type(1){
+	background-color: #f5f8fa;	
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.personRight td{
+	padding: 20px 0px;
+	text-align: center;
+}
+.personRight table span{
+	padding: 10px 50px;
+	cursor: pointer;
+	background: url(../img/vbg01.png) -754px -689px no-repeat;
+}
+.personRight p{
+	width: 860px;
+	height: 25px;
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #a0cdeb;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+.guess{
+	float: left;
+	font-size: 22px;
+}
+.change{
+	float: right;
+	cursor: pointer;
+}
+.personRight ul{
+	width: 810px;
+	height: 610px;
+	margin-left: 60px;
+	border: 1px solid #f1f1f1;
+	margin: 20px auto;
+}
+.likeTwo{
+	display: none;
+}
+.personRight li{
+	text-align: center;
+	width: 220px;
+	height: 286px;
+	position: relative;
+	margin: 10px 25px;
+	float: left;
+	cursor: pointer;
+}
+.personRight li img{
+	width: 220px;
+	height: 220px;
+}
+.cloPic{
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: 233px;
+	background: url(../img/vbg01.png) -1290px -1098px no-repeat;
+}
+.clotxt{
+	color: #7d6666;
+	font-weight: normal;
+	font-size: 14px;
+	margin: 8px 0px;
+	padding-left: 40px;
+}
+.personRight li h1{
+	width: 220px;
+	font-size: 13px;
+	color: #1e50bf;
+	border-top: 1px dotted #7d6666;
+	padding-top: 5px;
+}
+.del{
+	text-decoration: line-through;
+	color: #7d6666;
+}
+.big{
+	font-size: 16px;
+}
+.nine{
+	width: 42px;
+	height: 20px;
+	background: #1e50ae;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+}

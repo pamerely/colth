@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		<script type="text/javascript" src="../js/iconfont1.js" ></script>
+		<link rel="stylesheet" href="../css/all.css" />
+		
+	</head>
+	<body>
+		<div class="topNav">
+			<div class="topNavLeft">
+				<a href="logon.html">请登录<span>|</span></a>
+				<a href="register.html">注册<span>|</span></a>
+				<a href="" class="weixin">微信登录</a>
+			</div>
+			<div class="topNavRight">
+				<a href="">
+					<svg class="phone" aria-hidden="true">
+					    <use xlink:href="#icon-shouji"></use>
+					</svg>手机版<span>|</span>
+				</a>
+				<a href="about.html">关于我们<span>|</span></a>
+				<a href="connect.html">购买须知<span>|</span></a>
+				<a href="person.html">我的资料<span>|</span></a>
+				<a href="myOrder.html">我的订单<span>|</span></a>
+				<a href="shopcart.html" class="shopcart">购物车(0)
+					<ul class="cartlist">
+						<li>亲，您的购物车空空如也哟<div class="angle"></div></li>
+					</ul>
+				</a>
+			</div>
+		</div>
+		<header>
+			<div>
+				<span class="title"><b>Apparels&nbsp;&&nbsp;Accessories&nbsp;<span>Design</span></b></span>
+				<input type="text" placeholder="请输入关键词搜索" class="search"/>
+				<span><img src="../img/AD0I4IycCBAEGAAgz-bq2gUo1rWoMDAYOBk.png" class="seven"/>7天无理由退货</span>
+				<span><img src="../img/AD0I4IycCBAEGAAg0Pbq2gUoxaqx6gUwHTgW.png" class="car"/>订单满299包邮</span>
+			</div>
+		</header>
+		<nav class="drop">
+			<ul>
+				<li class="currentbg">
+					<svg class="classify" aria-hidden="true">
+						<use xlink:href="#icon-fenlei"></use>
+					</svg>商品分类
+					<ul class="pulldown">
+						<li>品牌球衣<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>背心</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>上装<span>></span>
+							<ul>
+								<li>卫衣</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>配件<span>></span>
+							<ul>
+								<li>背包</li>
+								<li>手环</li>
+								<li>袜子</li>
+								<li>挂件</li>
+							</ul>
+						</li>
+						<li>篮球<span>></span>
+							<ul>
+								<li>PU篮球</li>
+								<li>橡胶篮球</li>
+							</ul>
+						</li>
+						<li>限量商品<span>></span>
+							<ul>
+								<li>手机壳</li>
+								<li>球星卡</li>
+								<li>钥匙圈</li>
+							</ul>
+						</li>
+						<li>鞋子<span>></span>
+							<ul>
+								<li>跑步鞋</li>
+								<li>休闲鞋</li>
+								<li>篮球鞋</li>
+							</ul>
+						</li>
+						<li>女款<span>></span>
+							<ul>
+								<li>夹克</li>
+								<li>卫衣</li>
+							</ul>
+						</li>
+						<li>儿童<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>外套</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="currentcl" onclick="window.open('../index.html')">首页</li>
+				<li>所有商品</li>
+				<li onclick="window.open('new-arrival.html')">新品到站</li>
+				<li onclick="window.open('brand.html')">品牌专区</li>
+			</ul>
+		</nav>
+		
+		
+		
+		<div class="box"><img src="../img/begin.jpg" style="width: 1200px;height: 275px;"></div>
+		<section>
+			<div class="all"><p class="land">所有商品</p></div>
+			<div  class="list"> 
+				<form method="get" action="#">
+				    <input type="search" name="onsearch" class="found" placeholder="当前条件下搜索" />
+				</form>
+			</div>
+			<div class="onselect"><p class="select">已选择</p></div>
+			<nav>
+				<ul class="class1">
+					<li>分类:</li>
+					<li><a href="#">鞋子</a></li>
+					<li><a href="#">配件</a></li>
+					<li><a href="#">限量商品</a></li>
+					<li><a href="#">篮球</a></li>
+					<li><a href="#">上装</a></li>
+					<li><a href="#">品牌球衣</a></li>
+				</ul>
+				
+				<ul class="class2">
+					<li>用户:</li>
+					<li><a href="#">儿童</a></li>
+					<li><a href="#">女子</a></li>
+					<li><a href="#">男子</a></li>
+				</ul>
+				
+				<ul class="class3">
+					<li>价格区间:</li>
+					<li><a href="#">￥700以上</a></li>
+					<li><a href="#">￥500-699</a></li>
+					<li><a href="#">￥300-499</a></li>
+					<li><a href="#">￥1-299</a></li>
+				</ul>
+			</nav>
+			<div class="many">
+				<div class="name">名称</div>
+				<a href="#" class="time">上架时间</a> 
+				<a href="#" class="price">价格</a>
+				<form action="#" method="get" class="fontclass">
+					<input type="text" placeholder="￥" class="money"/>
+					<span class="else">-</span><nobr/>
+					<input type="text" placeholder="￥" class="money "/>
+					<input type="button" value="确定" class="btn"/> 
+				</form>	
+			</div>
+			<div class="most">
+				<a href="#" class="left"><</a>
+				<span class="page"><span style="color: red;">1</span>/4</span>
+				<a href="#" class="right">></a>	
+			</div>	
+						
+			<ol class="liall">
+				<div class="blue"><a href="#">享9折</a></div>
+				<div class="blued"><a href="#">享9折</a></div>
+				<li>
+					<a href="details.html"><img src="../img/1.jpg"  style="width: 199px;height: 200px;"/></a>
+		
+				    <p class="tname"><a href="details.html">NBA 金州勇士队 男子球衣</a></p>
+					<p class="pname">
+						<span style="font-size: 12px;color:#1e50ae;margin-right:-5px ;">￥</span>
+						<span style="font-size: 16px;color:#1e50ae;margin-right:-5px ;font-weight: bolder;">580</span>
+						<span style="font-size: 12px;color:#1e50ae;margin-right:2px">.00</span>
+						<span style="font-size: 12px;color:#767676;text-decoration: line-through;">￥600.00</span>
+					</p>
+					<a href="#" class="searchp"></a>
+				</li>
+			</ol>
+             
+            <div class="foot">
+            	<ul class="num">
+				   	<li><a href="#">上一页</a></li>
+				   	<li><a href="#">1</a></li>
+				   	<li><a href="#">2</a></li>
+				   	<li><a href="#">3</a></li>
+				   	<li><a href="#">4</a></li>
+				   	<li><a href="#">下一页<a/></li>
+			    </ul>
+            </div> 
+		</section>
+		
+		<footer>
+			<div>
+				<div class="fLeft">
+					<h2>Apparels & Accessories</h2>
+					<h1>010-00000000 000-0000000</h1>
+					<p>周一至周六9:00-18:30</p>
+					<p>中国-XX省-XX市-XX区-XX路-XX号</p>
+				</div>
+				<div class="txt4">
+					<ol>
+						<li>服务保障</li>
+						<li>支付方式</li>
+						<li>商家服务</li>
+						<li>物流配送</li>
+					</ol>
+					<ul>
+						<li>正品保证</li>
+						<li>7天无理由退换</li>
+						<li>退货返运费</li>
+						<li>7×15小时客户服务</li>
+					</ul>
+					<ul>
+						<li>公司转账</li>
+						<li>货到付款</li>
+						<li>在线支付</li>
+						<li>分期付款</li>
+					</ul>
+					<ul>
+						<li>商家咨询</li>
+						<li>培训中心</li>
+						<li>广告服务</li>
+						<li>服务市场</li>
+					</ul>
+					<ul>
+						<li>免运费</li>
+						<li>海外配送</li>
+						<li>EMS</li>
+						<li>211限时达</li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			<div class="ftxt">手机版 | 本站使用 凡科建站 搭建 | 管理登录</div>
+		</footer>
+		
+		
+		
+		<script type="text/javascript" src="../jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="../js/data.js" ></script>
+		<script type="text/javascript" src="../js/all.js" ></script>
+		
+	</body>
+</html>

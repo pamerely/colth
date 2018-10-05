@@ -1,0 +1,249 @@
+/*头部*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border-style: none;
+	outline: none;
+}
+
+body {
+	min-width: 1200px;
+	
+	position: relative;
+}
+
+
+.currentcl{
+	color: #FFFFFF;
+}
+.currentbg{
+	background-color: #1e50ae;
+	position: relative;
+}
+.classify{
+    width: 1.5em; height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;	
+    margin-right: 40px;
+}
+.pulldown{
+	width: 240px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	display: none;
+	color: #18181F;
+	font-weight: normal;
+}
+.pulldown>li{
+	height: 63px;
+	line-height: 63px;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+}
+.pulldown>li>span{
+	float: right;
+	margin-right: 40px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+.pulldown>li>ul{
+	width: 200px;
+	height: 518px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	border: 1px solid #1e50ae;
+	border-left-color: transparent;
+}
+.pulldown>li>ul>li{
+	width: 200px;
+	padding: 20px 0px;
+	float: left;
+}
+
+/*侧栏*/
+
+.box {
+	width: 1200px;
+	height: 520px;
+	margin-left: 70px;
+}
+
+.boxLeft {
+	width: 245px;
+	height: 520px;
+	background: white;
+	float: left;
+	display: none;
+}
+
+.boxLeft ul {
+	height: 64px;
+}
+
+.boxLeft ul li {
+	line-height: 64px;
+	border-top: 1px solid #f1f1f1;
+	padding-left: 35px;
+	cursor: pointer;
+}
+
+.boxLeft ul li span {
+	float: right;
+	margin-right: 35px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+/*中部*/
+.clearboth{
+	zoom: 1;
+}
+.clearboth:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.con-middle{
+	width: 1200px;
+	height: 900px;
+	background: #f1f2ed;
+	margin-left: auto;
+	margin-right: auto;
+}
+.con-middle>p{
+	font-size: 20px;
+	margin-left: 50px;
+	height: 75px;
+	line-height: 80px;
+	font-weight: 800;
+}
+.con{
+	width: 1100px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.con-left{
+	width: 520px;
+	height: 620px;
+	float: left;
+	background: white;
+}
+.con-right{
+	width: 520px;
+	height: 500px;
+	float: right;
+	background: white;
+}
+.con-left>li>span,.con-right>li>span{
+	display: block;
+	width: 510px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-weight: 800;
+	border-bottom: 1px dashed darkgray;
+}
+.con-left>li:nth-of-type(1),.con-left>li:nth-of-type(9){
+	background: #07284b;
+	color: white;
+	width: 510px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-weight: 800;
+}
+.con-right>li:nth-of-type(1),.con-right>li:nth-of-type(4),
+.con-right>li:nth-of-type(11){
+	background: #07284b;
+	color: white;
+	width: 510px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-weight: 800;
+}
+.con-left>li:hover,.con-right>li:hover{
+	cursor: pointer;
+	color: #07284b;
+}
+.con-left>li:nth-of-type(1):hover,.con-left>li:nth-of-type(9):hover{
+	color: white;
+	text-decoration: none;
+	cursor: text;
+}
+.con-right>li:nth-of-type(1):hover,.con-right>li:nth-of-type(4):hover,
+.con-right>li:nth-of-type(11):hover{
+	color: white;
+	text-decoration: none;
+	cursor: text;
+}
+.con-left>li>ol,.con-right>li>ol{
+	width: 510px;
+	display: none;
+}
+.con-left>li>ol>li,.con-right>li>ol>li{
+	width: 510px;
+	color: blue;
+	font-size: 14px;
+	border-bottom: none;
+	font-weight: normal;
+	margin: 5px auto 15px 10px;
+	line-height: 20px;
+}
+.con-left>li>ol>li:hover,.con-right>li>ol>li:hover{
+	cursor: text;
+	text-decoration: none;
+}
+.con-left .retract,.con-right .retract{
+	color: #000000;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.con-left .retract:hover,.con-right .retract:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*客服小图标*/
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.aside-right{
+	width: 80px;
+	position: fixed;
+	top: 50%;
+	right: 20px;
+	z-index: 2;
+	cursor: pointer;
+	text-align: center;
+}
+.custom{
+	width: 80px;
+	height: 80px;
+	background: white;
+}
+.custom-pic{
+	font-size: 50px;
+}
+.top-page{
+	width: 80px;
+	height: 80px;
+	background: black;
+	color: white;
+	display: none;
+}

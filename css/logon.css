@@ -1,0 +1,255 @@
+		  *{
+				margin:0px ;
+				padding: 0px;
+				list-style: none;
+				text-decoration: none;
+				outline: none;
+			}
+			body{
+				min-width: 1200px;
+				background-color: #07284b;
+			}
+			
+			.currentcl{
+	color: #FFFFFF;
+}
+.currentbg{
+	background-color: #1e50ae;
+	position: relative;
+}
+.classify{
+    width: 1.5em; height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;	
+    margin-right: 40px;
+}
+/*下拉条*//*下拉条*//*下拉条*//*下拉条*/
+.pulldown{
+	width: 240px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	display: none;
+	color: #18181F;
+	font-weight: normal;
+}
+.pulldown>li{
+	height: 63px;
+	line-height: 63px;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+}
+.pulldown>li>span{
+	float: right;
+	margin-right: 40px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+.pulldown>li>ul{
+	width: 200px;
+	height: 518px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	border: 1px solid #1e50ae;
+	border-left-color: transparent;
+}
+.pulldown>li>ul>li{
+	width: 200px;
+	padding: 20px 0px;
+	float: left;
+}
+			
+
+			
+       #major{
+      	
+      	width: 1200px;
+				height: 300px;
+				margin-bottom: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color:#ffffff;
+				font-family: "微软雅黑";
+				
+      }
+			
+			div.box{
+				width: 1200px;
+				height: 275px;
+				margin-left: auto;
+				margin-right: auto;
+			   margin-top: 0px;
+			}
+			div.list{
+				width: 90px;
+				height: 45px;
+				margin-top: 7px;	
+				padding-left: 13px;
+			  border-bottom:1px solid #1e50ae;
+			}
+			
+			.list span{
+				font-size: 16px;
+				line-height: 45px;
+				color: #1e76c9;
+				margin-left: 7px;
+				font-weight: 100;
+				
+				
+					
+			}
+
+			section.main{
+				width: 1200px;
+				height: 160px;	
+				margin-left: auto;
+				margin-right: auto;
+				border-top : #eaeaea 1px solid;
+				position: relative;
+			}
+			
+			.main form{
+				position: relative;
+			
+			}
+			
+			.leftloan{
+				position: absolute;
+				left: 471px;
+				top: 127px;
+				height: 44px;
+			}
+			
+			
+			.onmiddle{
+				width: 220px;
+				height: 46px;
+				/*border: 1px solid red;*/
+				position: absolute;
+				right: 494px;
+				top: 127px;
+				background: url(../img/blue_middle.png) repeat-x;
+        line-height: 46px;
+        font-size: 14px;
+        text-align: center;
+     
+				
+			}
+			
+			.onmiddle button{
+				 color: #ffffff;
+        cursor: pointer;
+         font-size: 14px;
+         height: 40px;
+         width: 180px;
+         background: none;
+         border: none;
+				
+			}
+			
+			.rightloan{
+				position: absolute;
+				right: 479px;
+				top: 127px;
+				height: 44px;
+			}
+			
+			
+			.main #txt #myname,#myword,.land{
+				width: 220px;
+				height: 35px;
+			  margin-top: 20px;
+			}
+			
+			
+			
+			
+			.main #txt #myname{
+				margin-bottom:-12px;
+				margin-left:472px;
+				padding-left: 25px;
+				background: url(../img/icon_user.jpg) no-repeat;
+				
+			}
+			
+			
+			.main #txt #myword{
+					padding-left: 25px;
+				margin-left:472px;
+				background: url(../img/icon_pwd.jpg) no-repeat;
+			}
+			
+			#nametip,#codetip{
+				font-size: 14px;
+				margin-left: 10px;
+			}
+
+			.resgis{
+			
+				width: 200px;
+				height: 30px;
+				position: absolute;
+				top: 181px;
+				left: 662px;
+				
+			}
+			
+			.resgis a{
+		
+				color: #666666;
+				font-size: 12px;
+			}
+			
+			
+			
+			div.last{
+				width: 1200px;
+				height: 45px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 51px;
+				border-top: solid  #eaeaea 1px;
+				padding-top: 10px;
+				position: relative;
+			}
+			
+			
+			.last .little{
+               margin-left: 472px;
+               font-size: 10px;
+               color: #6d6d6d;
+              
+              
+			}
+
+			
+			.last .wechat{
+				width: 30px;
+				height: 25px;
+				background: url(../img/weixiny.png);
+				background-position-x: -25px;
+				position: absolute;
+				left: 555px;
+				top: 14px;
+		    opacity: 0.7;
+		    cursor: pointer;
+		    
+			}
+			
+			.last .wechat:hover{
+				
+			opacity: 1;
+				
+			}
+			
+			.forms input{
+				background: #f7f7f7;
+				border: none;
+				border: 1px #dadada solid;
+			}

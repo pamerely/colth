@@ -1,0 +1,179 @@
+.currentcl{
+	color: #FFFFFF;
+}
+.currentbg{
+	background-color: #1e50ae;
+	position: relative;
+}
+.classify{
+    width: 1.5em; height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;	
+    margin-right: 40px;
+}
+
+/*下拉条*//*下拉条*//*下拉条*//*下拉条*/
+.pulldown{
+	width: 240px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	display: none;
+	color: #18181F;
+	font-weight: normal;
+}
+.pulldown>li{
+	height: 63px;
+	line-height: 63px;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+}
+.pulldown>li>span{
+	float: right;
+	margin-right: 40px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+.pulldown>li>ul{
+	width: 200px;
+	height: 518px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	border: 1px solid #1e50ae;
+	border-left-color: transparent;
+}
+.pulldown>li>ul>li{
+	width: 200px;
+	padding: 20px 0px;
+	float: left;
+}
+
+.brandSection{
+	width: 1200px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+.brandArea{
+	width: 1200px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 44px;
+	border-bottom: 1px solid #eaeaea;
+}
+.brandArea span{
+	padding: 12px;
+	border-bottom: 1px solid #1E50AE;
+	color: #1E50AE;
+	font-size: 15px;
+}
+.brandMain{
+	width: 1200px;
+	height: 765px;
+}
+.mainLeft{
+	float: left;
+	margin-top: 59px;
+}
+.mainLeft>ul{
+	width: 255px;
+	height: 500px;
+}
+.mainLeft>ul>li{
+	width: 200px;
+	margin: 100px 90px 200px;
+}
+.mainLeft img{
+	margin: 0px auto 30px;
+}
+.brandOne{
+	font-size: 13px;
+	color: #00a0e9;
+	margin-bottom: 15px;
+}
+.brandTwo{
+	font-size: 17px;
+}
+.mainRight{
+	width: 720px;
+	float: right;
+	margin-right: 90px;
+	margin-top: 59px;
+}
+.mainRight ul{
+	width: 810px;
+	height: 610px;
+	margin: 20px auto;
+}
+.mainRight li{
+	text-align: center;
+	width: 200px;
+	height: 286px;
+	margin-right: 60px;
+	margin-bottom: 76px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+.mainRight li:nth-of-type(3n){
+	margin-right: 0px;
+}
+.cloimg{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.cloPic{
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: 208px;
+	background: url(../img/vbg01.png) -1288px -1098px no-repeat;
+}
+.clotxt{
+	color: #7d6666;
+	font-size: 13px;
+	margin: 8px 0px;
+	padding-left: 40px;
+}
+.mainRight li h1{
+	width: 200px;
+	font-size: 12px;
+	color: #1e50bf;
+	border-top: 1px dotted #7d6666;
+	padding-top: 8px;
+}
+.del{
+	text-decoration: line-through;
+	color: #808080;
+}
+.big{
+	font-size: 15px;
+}
+.nine{
+	width: 42px;
+	height: 20px;
+	background: #1e50ae;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+}
+.find{
+	position: absolute;
+	top: 68px;
+	left: 68px;
+	display: none;
+}

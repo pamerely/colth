@@ -1,0 +1,387 @@
+/*头部*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border-style: none;
+	outline: none;
+}
+
+body {
+	min-width: 1200px;
+	background: #07284b;
+	position: relative;
+}
+
+
+.currentcl{
+	color: #FFFFFF;
+}
+.currentbg{
+	background-color: #1e50ae;
+	position: relative;
+}
+nav{
+	position: relative;
+}
+.classify{
+    width: 1.5em; height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;	
+    margin-right: 40px;
+}
+.pulldown{
+	width: 240px;
+	height: 520px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	display: none;
+	color: #18181F;
+	font-weight: normal;
+}
+.pulldown>li{
+	height: 63px;
+	line-height: 63px;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+}
+.pulldown>li>span{
+	float: right;
+	margin-right: 40px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+.pulldown>li>ul{
+	width: 200px;
+	height: 518px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	border: 1px solid #1e50ae;
+	border-left-color: transparent;
+}
+.pulldown>li>ul>li{
+	width: 200px;
+	padding: 20px 0px;
+	float: left;
+}
+
+/*侧栏*/
+
+.box {
+	width: 1200px;
+	height: 520px;
+	margin-left: 70px;
+}
+
+.boxLeft {
+	width: 245px;
+	height: 520px;
+	background: white;
+	float: left;
+	display: none;
+}
+
+.boxLeft ul {
+	height: 64px;
+}
+
+.boxLeft ul li {
+	line-height: 64px;
+	border-top: 1px solid #f1f1f1;
+	padding-left: 35px;
+	cursor: pointer;
+}
+
+.boxLeft ul li span {
+	float: right;
+	margin-right: 35px;
+	color: lightslategray;
+	opacity: 0.8;
+}
+
+/*侧边栏*/
+.maino{
+	width: 1200px;
+	height: 1395px;
+	background: #f5f5f5;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+}
+aside{
+	width: 150px;
+	margin-left: 10px;
+}
+.clearboth{
+	zoom: 1;
+}
+.clearboth:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+aside>ul{
+	height: 756px;
+	width: 150px;
+	padding-top: 5px;
+}
+aside ul li{
+	font-size: 12px;
+	color: grey;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 20px;
+	
+}
+aside ul li:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.black{
+	color: black;
+	font-weight: 800;
+	margin-top: 25px;
+}
+.red{
+	color: red;
+	font-weight: 800;
+}
+aside ul li span{
+	margin-left: 10px;
+}
+.maino>p{
+	width: 1020px;
+	height: 55px;
+	padding-left: 20px;
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	background: white;
+	padding-top: 16px;
+}
+.orderRight{
+	background: white;
+	width: 1020px;
+	height: 500px;
+	font-size: 12px;
+	position: absolute;
+	left: 140px;
+	top: 390px;
+	padding-left: 20px;
+}
+.orderRight>ul{
+	width: 1020px;
+	height: 50px;
+	margin-top: 20px;
+}
+.orderRight>ul>li{
+	margin-left: 90px;
+	float: left;
+}
+.orderRight>ul>li:nth-of-type(1)>span{
+	margin-right: 10px;
+	color: red;
+	font-weight: 800;
+	border-bottom: 2px solid red;
+}
+.orderRight>ul>li:nth-of-type(1){
+	margin-left: 10px;
+	color: dimgrey;
+}
+.orderRight>ul>li:nth-of-type(2),.orderRight>ul>li:nth-of-type(3){
+	color: black;
+	font-weight: 800;
+}
+.orderRight>ul>li:nth-of-type(4){
+	color: grey;
+}
+.orderRight>ul>li:nth-of-type(5)>input{
+	border: 1px solid gainsboro;
+	height: 30px;
+	
+}
+.orderRight>ul>li a{
+	width: 53px;
+	height: 25px;
+	border: 1px solid gainsboro;
+	background: #f5f5f5;
+	
+
+}
+.orderRight>ul>li:hover{
+	color: red;
+	cursor: pointer;
+}
+.orderRight>ul>li:nth-of-type(1):hover{
+	color: dimgrey;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+.icoone {
+   width: 2em; height: 2em;
+   vertical-align: middle;
+   fill: currentColor;
+   overflow: hidden;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.orderRight ol{
+	width: 1000px;
+	height: 50px;
+	background: #f5f5f5;
+}
+.orderRight>ol>li{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 60px;
+	float: left;
+}
+.orderRight ol>li:nth-of-type(1){
+	width: 130px;
+	cursor: pointer;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+.orderRight ol>li:nth-of-type(2),.orderRight ol>li:nth-of-type(3){
+	margin-left: 180px;
+}
+.orderRight ol>li:nth-of-type(5){
+	width: 80px;
+	cursor: pointer;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+.icotwo{
+	margin-left: 25px;
+}
+.icothree{
+	margin-left: 10px;
+}
+.orderRight ol>li>ul{
+	display: none;
+	margin-left: -20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+.orderRight ol>li:nth-of-type(1)>ul{
+	width: 150px;
+}
+.orderRight ol>li:nth-of-type(5)>ul{
+	width: 100px;
+}
+.orderRight ol>li>ul>li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: dimgray;
+	padding-left: 20px;
+}
+.orderRight ol>li>ul>li:hover{
+	color: red;
+	background: #F5F5F5;
+	cursor: pointer;
+}
+.orderCurrent{
+
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+.orderCurrent1{
+	width: 100px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+.table-buttom{
+	width: 400px;
+	height: 200px;
+	margin: 170px 250px;
+	text-align: center;
+	line-height: 50px;
+}
+.icofore{
+	font-size: 50px;
+}
+.table-buttom>span{
+	font-size: 20px;
+	color: gray;
+}
+.table-buttom>button{
+	width: 120px;
+	height: 40px;
+	margin-left: 10px;
+}
+.table-buttom>button:nth-of-type(1){
+	color: gray;
+}
+.table-buttom>button:nth-of-type(2){
+	color: white;
+	background: red;
+}
+.table-buttom>button:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.sectionfoot{
+
+	width: 1020px;
+	height: 400px;
+	position: absolute;
+	left: 130px;
+	top: 930px;
+	padding-left: 20px;
+}
+.sectionfoot>p{
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+}
+.footpic>ul>li{
+	float: left;
+	margin-left:40px;
+	cursor: pointer;
+}
+/*客服小图标*/
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.aside-right{
+	width: 80px;
+	position: fixed;
+	top: 50%;
+	right: 20px;
+	z-index: 2;
+	cursor: pointer;
+	text-align: center;
+}
+.custom{
+	width: 80px;
+	height: 80px;
+	background: white;
+}
+.custom-pic{
+	font-size: 50px;
+}
+.top-page{
+	width: 80px;
+	height: 80px;
+	background: black;
+	color: white;
+	display: none;
+}

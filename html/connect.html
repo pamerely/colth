@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/connect.css" />
+		
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+		<script src="../js/iconfont.js"></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		<script type="text/javascript" src="../js/iconfont1.js" ></script>
+		<script type="text/javascript" src="../js/myOrder.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="topNav">
+			<div class="topNavLeft">
+				<a href="logon.html">请登录<span>|</span></a>
+				<a href="register.html">注册<span>|</span></a>
+				<a href="" class="weixin">微信登录</a>
+			</div>
+			<div class="topNavRight">
+				<a href="">
+					<svg class="phone" aria-hidden="true">
+					    <use xlink:href="#icon-shouji"></use>
+					</svg>手机版<span>|</span>
+				</a>
+				<a href="about.html">关于我们<span>|</span></a>
+				<a href="">购买须知<span>|</span></a>
+				<a href="person.html">我的资料<span>|</span></a>
+				<a href="myOrder.html">我的订单<span>|</span></a>
+				<a href="shopcart.html" class="shopcart">购物车(0)
+					<ul class="cartlist">
+						<li>亲，您的购物车空空如也哟<div class="angle"></div></li>
+					</ul>
+				</a>
+			</div>
+		</div>
+		<header>
+			<div>
+				<span class="title">Apparels&nbsp;&&nbsp;Accessories&nbsp;<span>Design</span></span>
+				<input type="text" placeholder="请输入关键词搜索" class="search"/>
+				<span><img src="../img/AD0I4IycCBAEGAAgz-bq2gUo1rWoMDAYOBk.png" class="seven"/>7天无理由退货</span>
+				<span><img src="../img/AD0I4IycCBAEGAAg0Pbq2gUoxaqx6gUwHTgW.png" class="car"/>订单满299包邮</span>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li class="currentbg">
+					<svg class="classify" aria-hidden="true">
+						<use xlink:href="#icon-fenlei"></use>
+					</svg>商品分类
+					<ul class="pulldown">
+						<li>品牌球衣<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>背心</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>上装<span>></span>
+							<ul>
+								<li>卫衣</li>
+								<li>外套</li>
+							</ul>
+						</li>
+						<li>配件<span>></span>
+							<ul>
+								<li>背包</li>
+								<li>手环</li>
+								<li>袜子</li>
+								<li>挂件</li>
+							</ul>
+						</li>
+						<li>篮球<span>></span>
+							<ul>
+								<li>PU篮球</li>
+								<li>橡胶篮球</li>
+							</ul>
+						</li>
+						<li>限量商品<span>></span>
+							<ul>
+								<li>手机壳</li>
+								<li>球星卡</li>
+								<li>钥匙圈</li>
+							</ul>
+						</li>
+						<li>鞋子<span>></span>
+							<ul>
+								<li>跑步鞋</li>
+								<li>休闲鞋</li>
+								<li>篮球鞋</li>
+							</ul>
+						</li>
+						<li>女款<span>></span>
+							<ul>
+								<li>夹克</li>
+								<li>卫衣</li>
+							</ul>
+						</li>
+						<li>儿童<span>></span>
+							<ul>
+								<li>T恤</li>
+								<li>外套</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="currentcl" onclick="window.open('../index.html')">首页</li>
+				<li onclick="window.open('all.html')">所有商品</li>
+				<li>新品到站</li>
+				<li onclick="window.open('brand.html')">品牌专区</li>
+			</ul>
+		</nav>
+			<!--内容-->
+			<section class="con-middle ">
+				<p >购买须知</p>
+				<div class="con">
+					<ul class="con-left">
+						<li>订单情况</li>
+						<li>
+							<span>订单生成</span>
+							<ol>
+								<li>把商品加入购物车，提交订单，支付成功后即可成功生成订单。我们会尽快为您发货。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>支付方式</span>
+							<ol>
+								<li>官网支持支付宝，网银，微信支付。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>库存数量</span>
+							<ol>
+								<li>页面显示的均是真是库存，页面库存设置付款减库存，提交订单以后请尽快支付。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>订单修改信息</span>
+							<ol>
+								<li>官网不支持订单信息修改，未付款的订单请取消订单重新下单，已付款的订单请申请退款重新购买。请下单前仔细确认信息是否正确。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>订单发货时间</span>
+							<ol>
+								<li>每天16点前支付成功的订单当天发货，16点后支付成功的订单隔天发货，暂不提供指定发货时间服务。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>查询订单状态</span>
+							<ol>
+								<li>登入账号，在我的订单一栏中可查看订单状态和物流信息。任何疑问，请咨询官网在线客服。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>在线客服</span>
+							<ol>
+								<li>早晨9:00至次日1:00</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>尺码及保养</li>
+						<li>
+							<span>尺码选择</span>
+							<ol>
+								<li>请您咨询查看产品尺码表以及说明介绍，也可以咨询客服提供建议，最终还需您自行确认购买。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>商品色差</span>
+							<ol>
+								<li>因拍照，灯光，各显示器显示效果不同，您电脑上看到的商品图片可能与您收到的商品存在颜色差异，实际颜色以你收到的商品为准，请对颜色要求较为苛刻的朋友谨慎购买。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>牛皮头层革保养</span>
+							<ol>
+								<li>1.穿着时避免划伤、雨淋、污渍。</li>
+								<li>2.不要涂上任何清洁剂和喷剂，以免损坏皮革的表面。</li>
+								<li>3.有脏污时，直接用湿布擦拭或用软毛刷轻轻刷几下，无须清洗。</li>
+								<li>4.保存时避免阳光暴晒。</li>
+								<li>5.长期不穿时，除去表面灰尘，并用报纸或鞋撑塞在鞋子里， 避免受挤压而变形。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>反皮毛保养</span>
+							<ol>
+								<li>1.穿着时避免划伤、雨淋、污渍。</li>
+								<li>2.不要涂上任何清洁剂和喷剂，以免损坏皮革的表面。</li>
+								<li>3.用特柔毛刷或者软布湿水后轻轻擦去表面灰垢。</li>
+								<li>4.勿高温暴晒。</li>
+								<li>5.勿机洗，勿漂洗。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>特殊提示</span>
+							<ol>
+								<li>如果您是第一次穿篮球鞋，建议您穿着时陪着长袜穿着，由于鞋子的特殊材质和特殊设计，第一次穿着时可能出现会磨脚的现象</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>产地问题</span>
+							<ol>
+								<li>NBA作为国际品牌，在世界多个地区均设立工厂。相同款式的商品都可能由多个地区的工厂生产供应，但我们所有的原材料以及出厂检验标准都是经过严格把控，
+								符合国家标准。在样品拍摄时，我们只选部分样品进行展示，如你收到的商品后发现鞋盒上对于产地的标注和页面显示的不一致，请您不用担心。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+					</ul>
+					<ul class="con-right">
+						<li>配送服务</li>
+						<li>
+							<span>邮费说明</span>
+							<ol>
+								<li>顺丰全国包邮，顺丰不到的地区转EMS。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>发货快递</span>
+							<ol>
+								<li>顺丰发货（1-5天送达），不接受港澳台以及海外地区的订单。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							售后服务
+						</li>
+						<li>
+							<span>无理由退货时间</span>
+							<ol>
+								<li>支持15天无理由退换货。收到商品15天内，无穿着过，鞋盒吊牌齐全，在商品不影响2次销售的情况下给予办理退换货，请及时联系我们在线客服帮您处理。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>质量问题退换货</span>
+							<ol>
+								<li>出现质量问题及时联系在线客服，提供质量问题清晰图片，客服会遵守国家三包政策，为您妥善处理。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>退换货运费</span>
+							<ol>
+								<li>非商品质量问题产生的退换，来回运费均由买家承担。若商品提供包邮服务，买家仅承担退货运费。如果商品质量问题或者收到的货物与网上描述不符而导致的退货，退货运费则由商家承担。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>退款时效</span>
+							<ol>
+								<li>在收到您退回的商品并全面检查无误后，我们会在5个工作提内将款项退回您的支付宝或者微信账号，请联系在线客服提供您的支付宝或者微信账号，请您耐心等待。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>特殊需求服务</span>
+							<ol>
+								<li>官网支持定制球衣、球鞋，若有需要，请联系我们的在线客服为您安排。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>
+							<span>发票</span>
+							<ol>
+								<li>为了保证您的权益，在您收到商品确认不退换后，可联系我们在线客服为您开具发票，以快递形式为您寄出，请您联系在线客服为您记录信息，非常感谢。另外，所开具发票金额按照实付现金为准（不包括优惠券，红包，积分等优惠金额及运费）。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li>一般问题</li>
+						<li>
+							<span>在本网站浏览或输入咨询安全吗？</span>
+							<ol>
+								<li>所有个人资料会被加密，安全模式下的浏览器会显示https://为开头的网址。</li>
+								<li class="retract">收回</li>
+							</ol>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+				<aside class="aside-right">
+				<div class="custom"  onclick="window.open('custom.html')">
+					<svg class="icon custom-pic" aria-hidden="true">
+				    <use xlink:href="#icon-linedesign-20"></use>
+					</svg>
+					<p>客服</p>
+				</div>
+				<div class="top-page">
+					<svg class="icon custom-pic" aria-hidden="true">
+				    <use xlink:href="#icon-huidaodingbu"></use>
+					</svg>
+					<p>置顶</p>
+				</div>
+				</aside>
+			</section>
+					<!--底部-->
+			<footer>
+				<div>
+					<div class="fLeft">
+						<h2>Apparels & Accessories</h2>
+						<h1>010-00000000 000-0000000</h1>
+						<p>周一至周六9:00-18:30</p>
+						<p>中国-XX省-XX市-XX区-XX路-XX号</p>
+					</div>
+					<div class="txt4">
+						<ol>
+							<li>服务保障</li>
+							<li>支付方式</li>
+							<li>商家服务</li>
+							<li>物流配送</li>
+						</ol>
+						<ul>
+							<li>正品保证</li>
+							<li>7天无理由退换</li>
+							<li>退货返运费</li>
+							<li>7×15小时客户服务</li>
+						</ul>
+						<ul>
+							<li>公司转账</li>
+							<li>货到付款</li>
+							<li>在线支付</li>
+							<li>分期付款</li>
+						</ul>
+						<ul>
+							<li>商家咨询</li>
+							<li>培训中心</li>
+							<li>广告服务</li>
+							<li>服务市场</li>
+						</ul>
+						<ul>
+							<li>免运费</li>
+							<li>海外配送</li>
+							<li>EMS</li>
+							<li>211限时达</li>
+						</ul>
+					</div>
+				</div>
+			<hr />
+			<div class="ftxt">手机版 | 本站使用 凡科建站 搭建 | 管理登录</div>
+		</footer>
+	</body>
+</html>
